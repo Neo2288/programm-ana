@@ -1,25 +1,13 @@
-import random
-sk=[-24, -10, 2, 6]
-skaitli=[]
-for i in range(7):
-    sk1=random.randint(-13,20)
-    skaitli.insert(i,sk1)
-print(skaitli)
-#sarakstu apvienošana
-skaitli+=sk #skaitli=skaitli+sk
-#skaitli.extend(sk)
+import re
+with open("klienti.txt","r",encoding="utf-8") as datne:
+    dati=datne.read()
+epasti=re.findall(r"\w+@\w+\.\w+",dati)
+print(epasti)#saraksti
+print(len(epasti))
+telefoni=re.findall(r"\d{8}",dati)
+print(telefoni)
 
-
-skaitli.append(-23)
-skaitli.insert(2,-19)
-print(skaitli)
-skaitli.remove(skaitli[5])
-print(skaitli)
-
-datne=open("skaitli.txt","w",encoding="utf-8")
-datne.write(str(skaitli))
-datne.close()
-print(f"min={min(skaitli)}")
-print(f"max={max(skaitli)}")
-print(f"vid={min(skaitli)}")
-print(f"vid={sum(skaitli)/len(skaitli)}")
+aizvietots=re.sub(r"\d{8}","📱",dati)
+print(aizvietots)#virkne
+datne=open("klienti_anon.txt","w",encoding="utf-8")
+datne.write(aizvietots)
