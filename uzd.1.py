@@ -1,13 +1,11 @@
-import re
-with open("klienti.txt","r",encoding="utf-8") as datne:
-    dati=datne.read()
-epasti=re.findall(r"\w+@\w+\.\w+",dati)
-print(epasti)#saraksti
-print(len(epasti))
-telefoni=re.findall(r"\d{8}",dati)
-print(telefoni)
+import csv
+datne=open("kontakti.csv",encoding="utf-8")
+kontakti=list(csv.reader(datne))
+datne.close()
 
-aizvietots=re.sub(r"\d{8}","📱",dati)
-print(aizvietots)#virkne
-datne=open("klienti_anon.txt","w",encoding="utf-8")
-datne.write(aizvietots)
+galvene=["vārds", "uzvārds", "telefons", "pilsēta"]
+for i in kontakti:
+    print(i[0],i[-2])
+with open("k1.csv","w",newline="", encoding="utf-8") as fails:
+    a=csv.writer(fails)
+    a.csv.writerow(galvene)
