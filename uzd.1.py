@@ -7,5 +7,6 @@ galvene=["vārds", "uzvārds", "telefons", "pilsēta"]
 for i in kontakti:
     print(i[0],i[-2])
 with open("k1.csv","w",newline="", encoding="utf-8") as fails:
-    a=csv.writer(fails)
-    a.csv.writerow(galvene)
+    a=csv.writer(fails, delimiter="\t")
+    a.writerow(galvene)
+    a.writerows(kontakti)
