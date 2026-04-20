@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Anna",
+    "grades": {
+      "Matematika": 5,
+      "Fizika": 6,
+      "Informatika": 4
+    }
+  },
+  {
+    "name": "Jānis",
+    "grades": {
+      "Matematika": 4,
+      "Fizika": 3,
+      "Informatika": 4
+    }
+  },
+  {
+    "name": "Marta",
+    "grades": {
+      "Matematika": 5,
+      "Fizika": 2,
+      "Informatika": 6
+    }
+  },
+  {
+    "name": "Pēteris",
+    "grades": {
+      "Matematika": 7,
+      "Fizika": 8,
+      "Informatika": 5
+    }
+  },
+  {
+    "name": "Laura",
+    "grades": {
+      "Matematika": 3,
+      "Fizika": 8,
+      "Informatika": 9
+    }
+  },
+  {
+    "name": "Andris",
+    "grades": {
+      "Matematika": 10,
+      "Fizika": 6,
+      "Informatika": 4
+    }
+  },
+  {
+    "name": "Elīna",
+    "grades": {
+      "Matematika": 6,
+      "Fizika": 2,
+      "Informatika": 4
+    }
+  },
+  {
+    "name": "Toms",
+    "grades": {
+      "Matematika": 3,
+      "Fizika": 7,
+      "Informatika": 3
+    }
+  },
+  {
+    "name": "Līga",
+    "grades": {
+      "Matematika": 7,
+      "Fizika": 2,
+      "Informatika": 3
+    }
+  },
+  {
+    "name": "Rihards",
+    "grades": {
+      "Matematika": 9,
+      "Fizika": 3,
+      "Informatika": 9
+    }
+  },
+  {
+    "name": "Dāvis",
+    "grades": {
+      "Matematika": 7,
+      "Fizika": 8,
+      "Informatika": 10
+    }
+  },
+  {
+    "name": "Paula",
+    "grades": {
+      "Matematika": 5,
+      "Fizika": 10,
+      "Informatika": 9
+    }
+  },
+  {
+    "name": "Ieva",
+    "grades": {
+      "Matematika": 6,
+      "Fizika": 5,
+      "Informatika": 10
+    }
+  },
+  {
+    "name": "Kristaps",
+    "grades": {
+      "Matematika": 6,
+      "Fizika": 9,
+      "Informatika": 10
+    }
+  },
+  {
+    "name": "Signe",
+    "grades": {
+      "Matematika": 10,
+      "Fizika": 10,
+      "Informatika": 3
+    }
+  },
+  {
+    "name": "Artūrs",
+    "grades": {
+      "Matematika": 3,
+      "Fizika": 5,
+      "Informatika": 2
+    }
+  },
+  {
+    "name": "Linda",
+    "grades": {
+      "Matematika": 10,
+      "Fizika": 10,
+      "Informatika": 4
+    }
+  },
+  {
+    "name": "Roberts",
+    "grades": {
+      "Matematika": 3,
+      "Fizika": 9,
+      "Informatika": 5
+    }
+  },
+  {
+    "name": "Ilze",
+    "grades": {
+      "Matematika": 4,
+      "Fizika": 10,
+      "Informatika": 7
+    }
+  },
+  {
+    "name": "Edgars",
+    "grades": {
+      "Matematika": 8,
+      "Fizika": 8,
+      "Informatika": 9
+    }
+  },
+  {
+    "name": "Alise",
+    "grades": {
+      "Matematika": 10,
+      "Fizika": 9,
+      "Informatika": 9
+    }
+  },
+  {
+    "name": "Mārtiņš",
+    "grades": {
+      "Matematika": 3,
+      "Fizika": 4,
+      "Informatika": 4
+    }
+  },
+  {
+    "name": "Zane",
+    "grades": {
+      "Matematika": 3,
+      "Fizika": 4,
+      "Informatika": 2
+    }
+  },
+  {
+    "name": "Kaspars",
+    "grades": {
+      "Matematika": 3,
+      "Fizika": 8,
+      "Informatika": 3
+    }
+  },
+  {
+    "name": "Madara",
+    "grades": {
+      "Matematika": 8,
+      "Fizika": 8,
+      "Informatika": 6
+    }
+  },
+  {
+    "name": "Oskars",
+    "grades": {
+      "Matematika": 4,
+      "Fizika": 10,
+      "Informatika": 8
+    }
+  },
+  {
+    "name": "Sabīne",
+    "grades": {
+      "Matematika": 4,
+      "Fizika": 3,
+      "Informatika": 6
+    }
+  },
+  {
+    "name": "Gints",
+    "grades": {
+      "Matematika": 8,
+      "Fizika": 6,
+      "Informatika": 7
+    }
+  },
+  {
+    "name": "Evija",
+    "grades": {
+      "Matematika": 2,
+      "Fizika": 5,
+      "Informatika": 5
+    }
+  },
+  {
+    "name": "Tālis",
+    "grades": {
+      "Matematika": 8,
+      "Fizika": 10,
+      "Informatika": 3
+    }
+  }
+]
